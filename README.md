@@ -20,6 +20,58 @@ This template turns the high-level LLM Wiki pattern into a practical Cursor + Ob
 - `.cursor/rules/` files for persistent guardrails
 - starter docs for `ingest`, `query`, and `lint`
 
+## Requirements
+
+- [Cursor](https://www.cursor.com/)
+- [Obsidian](https://obsidian.md/)
+- optional but recommended: `git`
+
+There is no package installation step for this template. You mainly copy or clone the folder structure and use it as an Obsidian vault plus a Cursor workspace.
+
+## Install
+
+### Option 1: Start a New Vault From This Template
+
+1. Click **Use this template** on GitHub, or clone the repository:
+
+```bash
+git clone https://github.com/xccElephant/llm-wiki-obsidian-template.git
+```
+
+2. Open the folder in Obsidian as a vault.
+3. Open the same folder in Cursor.
+4. Start dropping source files into `raw/articles/`.
+
+### Option 2: Add It To An Existing Vault
+
+Copy these files and folders into your existing Obsidian vault:
+
+- `AGENTS.md`
+- `.cursor/rules/`
+- `raw/`
+- `wiki/`
+- `logs/`
+- `schemas/`
+
+If your existing vault already has a different structure, adapt the folders and update `AGENTS.md` plus `.cursor/rules/` to match your naming.
+
+## First Use
+
+1. Put one source document into `raw/articles/`.
+2. Open the vault in Cursor.
+3. Ask the agent to read `AGENTS.md` and ingest the source into `wiki/source-notes/`.
+4. Review the generated note in Obsidian.
+5. Ask the agent to update related concept, entity, or synthesis pages.
+6. Ask the agent to append an operation note to `logs/log.md`.
+
+## Example Prompts
+
+Use prompts like these in Cursor:
+
+- `Read AGENTS.md and ingest raw/articles/my-article.md into wiki/source-notes/. Update any related concept or entity pages and append to logs/log.md.`
+- `Read wiki/index.md and answer: what do we currently know about <topic>? File the answer back into wiki/synthesis/ if it is durable.`
+- `Lint this vault for unsupported claims, stale syntheses, missing source-notes, orphan pages, and broken wikilinks.`
+
 ## How This Differs From The Original LLM Wiki
 
 Karpathy's gist describes the pattern at a high level.
