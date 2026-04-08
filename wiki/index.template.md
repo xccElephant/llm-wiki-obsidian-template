@@ -1,18 +1,19 @@
 ---
-title: LLM Wiki Index
+title: LLM Wiki Index Template
 tags:
   - wiki
   - index
+  - template
 ---
 
-# LLM Wiki Index
+# LLM Wiki Index Template
 
 ## Navigation
 
 - [[wiki/README|Wiki Workflow]]
 - [[schemas/wiki-schema|Wiki Schema]]
 - [[schemas/workflows|Workflows]]
-- [[logs/log|Log]]
+- [[logs/log.template|Log Template]]
 
 ## Source Notes
 
