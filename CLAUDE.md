@@ -2,7 +2,7 @@
 
 This repository is a template for a persistent, LLM-maintained wiki built on top of raw sources.
 
-This file is intended for Codex-style agents and other tools that read `AGENTS.md`. Keep it aligned with `CLAUDE.md` when changing the workflow.
+This file mirrors the core guidance in `AGENTS.md` so the template works well with Claude Code in addition to Cursor and Codex-style agents.
 
 ## Directory Roles
 
