@@ -33,8 +33,8 @@ Most note systems still make you do the bookkeeping yourself:
 1. Clone this repo into a new vault or an empty folder:
 
 ```bash
-git clone https://github.com/xccElephant/llm-wiki-obsidian-template.git
-cd llm-wiki-obsidian-template
+git clone https://github.com/xccElephant/agent-wiki.git
+cd agent-wiki
 ```
 
 2. Bootstrap the starter files:

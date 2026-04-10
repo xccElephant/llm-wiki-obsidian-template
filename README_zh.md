@@ -33,8 +33,8 @@ Obsidian 是最适合浏览结果的查看器，但知识本身保存在纯 Mark
 1. 把这个仓库克隆到一个新 vault 或空目录里：
 
 ```bash
-git clone https://github.com/xccElephant/llm-wiki-obsidian-template.git
-cd llm-wiki-obsidian-template
+git clone https://github.com/xccElephant/agent-wiki.git
+cd agent-wiki
 ```
 
 2. 运行引导脚本，生成起始文件：
